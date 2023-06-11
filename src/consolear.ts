@@ -1,4 +1,4 @@
-export const consolear = (str: string): string => {
-	console.log(str)
-	return str
+export default (str: string): string => {
+  console.log(str)
+  return str
 }

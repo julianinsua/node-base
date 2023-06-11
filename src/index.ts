@@ -1,7 +1,7 @@
-import { consolear } from 'src/consolear'
+import consolear from 'src/consolear'
 
 const func = (str: string): void => {
-	consolear(str)
+  consolear(str)
 }
 
 func('I dont think so')

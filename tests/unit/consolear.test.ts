@@ -1,4 +1,4 @@
-import { consolear } from '../../src/consolear'
+import consolear from '../../src/consolear'
 
 describe('consolear', () => {
 	it('should return the string', async () => {
