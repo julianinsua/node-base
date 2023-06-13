@@ -12,6 +12,7 @@ module.exports = {
     tsconfigRootDir: __dirname
   },
   rules: {
-    indent: ['error', 2]
+    indent: ['error', 2],
+		'@typescript-eslint/strict-boolean-expressions': 'warn',
   }
 }
